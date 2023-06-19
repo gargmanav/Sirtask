@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
 const Sirtask = () => {
-  const [word, setWord] = useState('');
-  const [color, setColor] = useState('black');
+  const [word, setword] = useState('');
+  const [color, setcolor] = useState('black');
 
   const Colorchange = (e) => {
-    setColor(e.target.value);
+    setcolor(e.target.value);
   };
 
   const Wordchange = (e) => {
-    setWord(e.target.value);
+    setword(e.target.value);
   };
 
   return (
